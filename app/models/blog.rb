@@ -1,4 +1,4 @@
 class Blog < ApplicationRecord
-  validates :blog, presence: true
+  validates :title, presence: true
   validates :content, presence: true
 end
