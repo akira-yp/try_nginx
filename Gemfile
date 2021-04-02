@@ -14,6 +14,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'unicorn'
 gem 'dotenv-rails'
+gem 'graphql', '<= 1.7'
+gem 'graphiql-rails', '<= 1.5'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -33,3 +35,5 @@ group :test do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# gem 'graphiql-rails', group: :development
